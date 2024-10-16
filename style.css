@@ -7,6 +7,9 @@
     --text-font: "Play", serif;
 }
 
+.color-s{
+    color: var(--color-s);
+}
 .color-a{
     color: var(--color-x);
 }
@@ -124,7 +127,12 @@ width: 100px;
 }
 
 
-
+/* SEZIONE CONSOLE  */
+.img-console{
+    width: 100%;
+    aspect-ratio: 1/0.7;
+    border-radius: 10px;
+}
 
 
 
