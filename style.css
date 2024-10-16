@@ -7,6 +7,10 @@
     --text-font: "Play", serif;
 }
 
+.color-a{
+    color: var(--color-x);
+}
+
 .title{
     font-family: var(--title-font);
 }
@@ -14,7 +18,9 @@
 *{
     font-family: var(--text-font);
 }
-
+body{
+    background-color: var(--color-p);
+}
 
 /* NAVBAR */
 .logo{
@@ -48,6 +54,7 @@ width: 100px;
 }
 
 .arrow-anim{
+    color: var(--color-s);
     text-shadow: 2px 2px 15px var(--color-x);
     animation: scroll-down 1.5s alternate infinite ease-in;
 }
@@ -80,6 +87,44 @@ width: 100px;
     background-position: center;
     background-size: cover;
 }
+
+/* SEZIONE CARDS  */
+.img-card-cus{
+    aspect-ratio: 1/0.7;
+}
+
+.card-custom{
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    transition: 0.5s;
+}
+
+.card-custom:hover{
+    transform: translateY(-50px);
+    border: 2px solid var(--color-x);
+    z-index: 2;
+}
+
+
+
+.btn-custom{
+    text-decoration: none;
+    color: var(--color-s);
+    background-color: transparent;
+    border: 2px solid var(--color-x);
+    border-radius: 5px;
+    padding: 5px 20px;
+    box-shadow: 0px 0px 10px var(--color-x);
+    transition: .5s;
+}
+
+.btn-custom:hover{
+    background-color: var(--color-x);
+
+}
+
+
+
 
 
 
